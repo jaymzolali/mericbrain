@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Your content here -->
+  <!-- navbar -->
+  <nav class="bg-gray-100 p-4 fixed top-0 w-full">
+    <div class="container mx-auto flex items-center justify-between">
+        <!-- Logo -->
+        <!-- <div class="text-white text-xl font-bold">MyLogo</div> -->
+         <a href="./index.html"><div class="logo"></div></a>
+        <!-- <img src="./assets/brain-logo.png" alt="brainmeric-logo"> -->
+
+        <!-- Menu Toggle Button (For Mobile) -->
+        <div class="block lg:hidden bg-blue-900 rounded-md p-1">
+            <button id="navbar-toggle" class="text-white focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Links -->
+        <div class="hidden lg:flex space-x-4">
+            <a href="./index.html" class="text-white text-blue-500 hover:text-blue-900">Home</a>
+            <a href="./about.html" class="text-white text-blue-500 hover:text-blue-900">About</a>
+            <a href="./services.html" class="text-white text-blue-500 hover:text-blue-900">Services</a>
+            <a href="#footer" class="text-white text-blue-500 hover:text-blue-900">Contact</a>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="navbar-menu" class="hidden lg:hidden">
+        <a href="#" class="block text-white px-4 py-2 hover:bg-gray-900 hover:text-white text-blue-900">Home</a>
+        <a href="./about.html" class="block text-white px-4 py-2 hover:bg-gray-900 hover:text-white text-blue-900">About</a>
+        <a href="./services.html" class="block text-white px-4 py-2 hover:bg-gray-900 hover:text-white text-blue-900">Services</a>
+        <a href="#footer" class="block text-white px-4 py-2 hover:bg-gray-900 hover:text-white text-blue-900">Contact</a>
+    </div>
+</nav>
+    <section class="about-us mt-20">
+        <h1 class="about-h1 text-center text-blue-900">About <span class="us text-red-500">Us</span></h1>
+        <div class="abt-p mb-4">
+            <h1 class="abt-bacgd text-blue-600">Background</h1>
+            <p class="about-p text-gray-400">At Brainmeric Nigeria limited, we
+                specialize in delivering top-tier Sales and
+                Rental services for Commercial &
+                Residential properties, Property
+                Management, Mortgage Advisory Services,
+                Land Surveying, Title & Deed Processing,
+                Valuations, Investment Consultancy, and
+                general Real Estate Consultancy.
+            </p>
+            <p class="about-p2 text-gray-400">
+                Our focus is always on ensuring customer
+                contentment through our strong working
+                relationships with partners and
+                stakeholders. We take pride in delivering
+                value-added services that exceed our
+                clients expectations.
+                Our team comprises dynamic and skilled
+                staff, including well-trained real estate
+                agents, seasoned property managers,
+                business-savvy investment officers, and
+                cutting-edge administrative personnel.
+                At Brainmeric, we approach each
+                assignment with a focus on building
+                exceptional client relationships, grounded
+                in sound principles and a deep
+                understanding of the regulatory and
+                economic environment.
+            </p>
+            <p class="about-p3 text-gray-400">
+                Through strategic alliances with the most
+                reliable surveyors, architects, financiers,
+                developers, planners, and other real estate
+                practitioners in the region and beyond, we
+                ensure timely and cost-effective delivery.
+                Our sole objective is to provide you with a
+                unique level of service and accountability
+                based on the simple promise that customer
+                satisfaction is a rule, not an exception. Trust
+                Century Real Estate to be your go-to partner
+                for all your real estate needs.
+            </p>
+        </div>
+
+        <div class="hvr-float-shadow flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./assets/founder.jpg" alt="Image" class="ceo-image">
+              </div>
+              <div class="flip-card-back">
+                <h2>Image Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolor eum ut earum saepe obcaecati cum laborum, pariatur consequuntur sit!</p>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+
+    <!-- footer -->
+     <!-- footer -->
+   <footer id="footer" class="ftr grid lg:grid-cols-4 sm:grid-cols-2 bg-blue-200">
+    <div class="ftr1">
+      <a href="#"><div class="logo"></div></a>
+      <div class="ftr-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis, mollitia vero eaque obcaecati laudantium quae aut rerum quaerat earum!</div>
+    </div>
+    <div class="ftr2">
+      <h2 class="quick">Quick Link</h2>
+      <a href="./index.html">Home</a>
+      <a href="#">Sell</a>
+      <a href="#">Buy</a>
+      <!-- <a href="#">H</a> -->
+    </div>
+    <div class="ftr3">
+      <h2 class="support">Support</h2>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+    </div>
+    <div class="ftr4">
+      <h2 class="touch">Get In Touch</h2>
+      <p class="email">hello@gmail.com</p>
+      <p class="address">21b Park Lane, New Road</p>
+    </div>
+   </footer>
+
+
+
+
+
+
+    <script>
+        document.getElementById('navbar-toggle').addEventListener('click', function () {
+            var menu = document.getElementById('navbar-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
