@@ -484,8 +484,7 @@ a{
     .carcass{
         background: url(./assets/carcass.jpg) center center no-repeat;
         background-size: 100%;
-        /* padding: 0; */
-        width: 23rem;
+        width: 90vw;
         height: 30vh;
         /* border: 1px solid red; */
     }
@@ -493,49 +492,49 @@ a{
         background: url(./assets/drainage.jpg) center center no-repeat;
         background-size: 100%;
         /* padding: 0; */
-        width: 23rem;
+        width: 90vw;
         height: 30vh;
     }
     .piling{
         background: url(./assets/piling.jpg) center center no-repeat;
         background-size: 100%;
         /* padding: 0; */
-        width: 23rem;
+        width: 90vw;
         height: 30vh;
     }
     .site{
         background: url(./assets/site-insp.jpg) center center no-repeat;
         background-size: 100%;
         /* padding: 0; */
-        width: 23rem;
+        width: 90vw;
         height: 30vh;
     }
     .dev-site{
         background: url(./assets/dev-site.jpg) center center no-repeat;
         background-size: 100%;
         /* padding: 0; */
-        width: 23rem;
+        width: 90vw;
         height: 30vh;
     }
     .office{
         background: url(./assets/handsome-man-cleaning-house_23-2148563575.jpg) center center no-repeat;
         background-size: 100%;
         /* padding: 0; */
-        width: 23rem;
+        width: 90vw;
         height: 30vh;
     }
     .leveling{
         background: url(./assets/level-survey.jpg) center center no-repeat;
         background-size: 100%;
         /* padding: 0; */
-        width: 23rem;
+        width: 90vw;
         height: 30vh;
     }
     .kinematic{
         background: url(./assets/kinematic.jpg) center center no-repeat;
-        background-size: 90%;
+        background-size: 100%;
         /* padding: 0; */
-        width: 23rem;
+        width: 90vw;
         height: 30vh;
     }
 }
