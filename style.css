@@ -51,10 +51,73 @@ a{
     height: 25rem;
 }
 .cards{
-    height: 50vh;
+    /* height: 50vh; */
+    /* padding: 1rem; */
     border-radius: 10px;
-    box-shadow: 0 2px 10px 0 black;
+    box-shadow: 0 0px 10px 0 rgb(196, 176, 249);
 }
+
+.carcass{
+    background: url(./assets/carcass.jpg) center center no-repeat;
+    background-size: 100%;
+    /* padding: 0; */
+    width: 16.3rem;
+    height: 30vh;
+    /* border: 1px solid red; */
+}
+.drain{
+    background: url(./assets/drainage.jpg) center center no-repeat;
+    background-size: 100%;
+    /* padding: 0; */
+    width: 16.3rem;
+    height: 30vh;
+}
+.piling{
+    background: url(./assets/piling.jpg) center center no-repeat;
+    background-size: 100%;
+    /* padding: 0; */
+    width: 16.3rem;
+    height: 30vh;
+}
+.site{
+    background: url(./assets/site-insp.jpg) center center no-repeat;
+    background-size: 100%;
+    /* padding: 0; */
+    width: 16.3rem;
+    height: 30vh;
+}
+.dev-site{
+    background: url(./assets/dev-site.jpg) center center no-repeat;
+    background-size: 100%;
+    /* padding: 0; */
+    width: 16.3rem;
+    height: 30vh;
+}
+.office{
+    background: url(./assets/handsome-man-cleaning-house_23-2148563575.jpg) center center no-repeat;
+    background-size: 100%;
+    /* padding: 0; */
+    width: 16.3rem;
+    height: 30vh;
+}
+.leveling{
+    background: url(./assets/level-survey.jpg) center center no-repeat;
+    background-size: 100%;
+    /* padding: 0; */
+    width: 16.3rem;
+    height: 30vh;
+}
+.kinematic{
+    background: url(./assets/kinematic.jpg) center center no-repeat;
+    background-size: 100%;
+    /* padding: 0; */
+    width: 16.3rem;
+    height: 30vh;
+}
+
+
+
+
 .section1{
     margin-left: 8%;
     margin-right: 8%;
@@ -82,6 +145,7 @@ a{
 .sec1-right{
     margin-top: 4rem;
 }
+
 .best{
     font-weight: 700;
     font-size: 1.5rem;
@@ -96,7 +160,7 @@ a{
     /* animation: slide-in 0.5s ease-out forwards; */
 }
 .sec3-img{
-    background: url(./assets/reno.jpg) center center no-repeat;
+    background: url(./assets/handsome-man-cleaning-house_23-2148563575.jpg) center center no-repeat;
     background-size: 100%;
     width: 40vw;
     height: 50dvh;
@@ -120,6 +184,12 @@ a{
     font-size: 1rem;
     font-weight: 700;
 }
+.ftr3, .ftr2 a{
+    font-size: 0.7rem;
+}
+.ftr4{
+    font-size: 0.8rem;
+}
 
 
 /* about us */
@@ -133,6 +203,54 @@ a{
 .abt-bacgd{
     font-weight: 700;
 }
+
+.moa{
+    font-weight: 700;
+}
+.about-group-photo{
+    background: url(./assets/groupmeric.png) center center no-repeat;
+    background-size: 80%;
+    width: 80vw;
+    height: 70dvh;
+    /* border: 1px solid red; */
+}
+
+.admin-img1{
+    background: url(./assets/chidera.png) center no-repeat;
+    background-size: 130%;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    /* border: 1px solid green; */
+}
+.admin-img2{
+    background: url(./assets/andrew.png) center no-repeat;
+    background-size: 99%;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    /* border: 1px solid green; */
+}
+.admin-img3{
+    background: url(./assets/ikakup.png) center no-repeat;
+    background-size: 99%;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    /* border: 1px solid green; */
+}
+.admin-img4{
+    background: url(./assets/theo.png) center no-repeat;
+    background-size: 99%;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    /* border: 1px solid green; */
+}
+
+
+
+
 
 .flip-card {
     background-color: transparent;
@@ -180,6 +298,43 @@ a{
 /* .ceo-image{
     bor
 } */
+
+/* contacts */
+.conth1{
+    font-weight: 700;
+}
+.contact-icons{
+    margin-left: 10%;
+    /* margin-right: 10%; */
+}
+.cont-fb{
+    cursor: pointer;
+    background: url(./assets/facebook-svgrepo-com.png) center center no-repeat;
+    background-size: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.cont-ig{
+    cursor: pointer;
+    background: url(./assets/instagram-svgrepo-com.png) center center no-repeat;
+    background-size: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.cont-whats{
+    cursor: pointer;
+    background: url(./assets/whatsapp-.png) center center no-repeat;
+    background-size: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.cont-mess{
+    cursor: pointer;
+    background: url(./assets/messenger-svgrepo-com.png) center center no-repeat;
+    background-size: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
 
 /* services */
 .services{
@@ -253,6 +408,16 @@ a{
 
 
 /* query */
+/* @media (max-width: 1204px) {
+    .carcass{
+        background: url(./assets/carcass.jpg) center center no-repeat;
+        background-size: 100%;
+        padding: 0;
+        width: 16rem;
+        height: 30vh;
+        border: 1px solid red;
+    }
+} */
 @media (max-width: 768px) {
     .margin{
         margin-left: 5vw;
@@ -301,5 +466,76 @@ a{
         gap: 2%;
         height: 60vh;
         padding: 2rem 5%;
+    }
+    .about-all{
+        display: block;
+    }
+    .about-adm{
+        display: grid;
+        place-content: center;
+    }
+    .about-group-photo{
+        background: url(./assets/groupmeric.png) center center no-repeat;
+        background-size: 100%;
+        width: 80vw;
+        height: 29dvh;
+        /* border: 1px solid red; */
+    }
+    .carcass{
+        background: url(./assets/carcass.jpg) center center no-repeat;
+        background-size: 100%;
+        /* padding: 0; */
+        width: 23rem;
+        height: 30vh;
+        /* border: 1px solid red; */
+    }
+    .drain{
+        background: url(./assets/drainage.jpg) center center no-repeat;
+        background-size: 100%;
+        /* padding: 0; */
+        width: 23rem;
+        height: 30vh;
+    }
+    .piling{
+        background: url(./assets/piling.jpg) center center no-repeat;
+        background-size: 100%;
+        /* padding: 0; */
+        width: 23rem;
+        height: 30vh;
+    }
+    .site{
+        background: url(./assets/site-insp.jpg) center center no-repeat;
+        background-size: 100%;
+        /* padding: 0; */
+        width: 23rem;
+        height: 30vh;
+    }
+    .dev-site{
+        background: url(./assets/dev-site.jpg) center center no-repeat;
+        background-size: 100%;
+        /* padding: 0; */
+        width: 23rem;
+        height: 30vh;
+    }
+    .office{
+        background: url(./assets/handsome-man-cleaning-house_23-2148563575.jpg) center center no-repeat;
+        background-size: 100%;
+        /* padding: 0; */
+        width: 23rem;
+        height: 30vh;
+    }
+    .leveling{
+        background: url(./assets/level-survey.jpg) center center no-repeat;
+        background-size: 100%;
+        /* padding: 0; */
+        width: 23rem;
+        height: 30vh;
+    }
+    .kinematic{
+        background: url(./assets/kinematic.jpg) center center no-repeat;
+        background-size: 90%;
+        /* padding: 0; */
+        width: 23rem;
+        height: 30vh;
     }
 }
